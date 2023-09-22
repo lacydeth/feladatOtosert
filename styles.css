@@ -1,0 +1,7 @@
+#tabla { border-spacing: 0; border-collapse: collapse; }
+#tabla tr { padding: .5em; }
+#tabla td { width: 2em; height: 2em; }
+
+.fekete {
+    background: #000;
+}
