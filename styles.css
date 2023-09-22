@@ -1,0 +1,24 @@
+.fekete {
+    background: #000;
+}
+table {
+    margin: auto;
+    margin-top: 15px;
+    border-spacing: 0px;
+}
+.container {
+    width: 250px;
+    height: 110px;
+    background: #3187c0;
+    border-radius: 12px;
+    padding: 15px;
+    color: #fff;
+    margin: auto;
+    text-align: center;
+}
+input[type="button"] {
+    border: none;
+    margin-top: 5px;
+    padding: 5px 15px;
+    border-radius: 12px;
+}

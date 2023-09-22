@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="body">
+    <div class="container">
+        <span>Kockák száma <span id="kockaSzamaSpan">4</span>x<span id="kockaSzamaSpan2">4</span></span>
+        <input id="kockakSzama" type="range" min="2" max="10" value="4" oninput="kockaszam()"><br>
+        <span>Kockák mérete <span id="kockaMeretSpan">(50px)</span></span>
+        <input id="kockakMerete" type="range" min="20" max="100" value="50" oninput="kockameret()"><br>
+        <input type="button" value="Készít" onclick="keszit()">
+    </div>
+    <table></table>
+    <script src="scripts.js"></script>
+</body>
+</html>
